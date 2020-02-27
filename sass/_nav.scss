@@ -1,0 +1,46 @@
+.nav {
+  background: var(--green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &__item {
+    height: 100%;
+  }
+
+  &__link {
+    color: var(--light);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin: 0 2rem;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: var(--gray);
+    }
+  }
+}
+
+.social__container {
+  margin: 0 2rem;
+  a {
+    font-size: 1.8rem;
+    margin: 0 0.8rem;
+
+    i {
+      color: var(--gray);
+    }
+
+    &:hover {
+      i {
+        color: var(--light);
+        transition: all 0.38s ease-in-out;
+      }
+    }
+  }
+}

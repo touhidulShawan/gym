@@ -1,0 +1,23 @@
+// global button style
+
+.btn {
+  font-size: 2rem;
+  background: var(--accent);
+  width: 25rem;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: var(--bg);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.38s ease-in-out;
+
+  &:hover {
+    letter-spacing: 0.1em;
+    background: var(--light);
+    color: var(--green);
+  }
+}

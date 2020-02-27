@@ -1,0 +1,22 @@
+{
+  "name": "gym",
+  "version": "1.0.0",
+  "description": "This is a website template for a Gym",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/touhidulShawan/gym.git"
+  },
+  "keywords": [
+    "gym"
+  ],
+  "author": "Touhidul Shawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/touhidulShawan/gym/issues"
+  },
+  "homepage": "https://github.com/touhidulShawan/gym#readme"
+}

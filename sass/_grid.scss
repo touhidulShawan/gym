@@ -1,0 +1,31 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); // create 12 columns grid
+  grid-template-rows: 5.5rem auto 4.5rem;
+  grid-template-areas:
+    "n n n n n n n n n n n n"
+    "h h h h h h h h h h h h"
+    "m m m m m m m m m m m m"
+    "f f f f f f f f f f f f";
+}
+
+.nav {
+  grid-area: n;
+}
+
+.header {
+  grid-area: h;
+}
+
+.main {
+  grid-area: m;
+}
+.footer {
+  grid-area: f;
+}
+
+.container {
+  width: 128rem;
+  min-width: 128rem;
+  margin: 0 auto;
+}
